@@ -86,7 +86,7 @@ body {
     width: 400px;
     margin-bottom: 20px;
 }
-.profilePhoto {
+#profilePhoto {
     background-color: black;
     width: 80px;
     height: 80px;
@@ -112,12 +112,13 @@ body {
     width: auto;
     height: 80px;
 }
-.name {
+#name {
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 30px;
     font-size: 30px;
 }
+
 .city {
     display: flex;
     align-items: center;
@@ -154,7 +155,9 @@ body {
     background-color: rgb(240, 240, 240);
     width: 200px;
 }
-
+#accepted-1 {
+    visibility: visible;
+}
                                     /* Connection numbers in black banners */
 .connectionNumber {
     display: flex;
@@ -194,11 +197,26 @@ body {
     list-style-type: none;
     padding: 0px;
 }
-.listItems {                    
+.listItems1 {                    
     height: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    visibility: ;
+}
+.listItems2 {                    
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    visibility: ;
+}
+.listItems3 {                    
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    visibility: ;
 }
                                     /* Icons for photos */
 .imageIcon {
